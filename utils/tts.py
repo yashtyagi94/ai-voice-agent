@@ -5,7 +5,7 @@ load_dotenv()
 
 def speak(text):
     api_key = os.getenv("ELEVENLABS_API_KEY")
-    voice_id = "Xb7hH8MSUJpSbSDYk0k2"  # Replace with your actual voice ID
+    voice_id = "Xb7hH8MSUJpSbSDYk0k2"  
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 
     headers = {
@@ -15,7 +15,7 @@ def speak(text):
 
     data = {
         "text": text,
-        "model_id": "eleven_monolingual_v1",  # Optional, can also use "eleven_multilingual_v1"
+        "model_id": "eleven_monolingual_v1",  
         "voice_settings": {
             "stability": 0.5,
             "similarity_boost": 0.75
