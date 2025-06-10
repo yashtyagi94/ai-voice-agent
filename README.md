@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="logo.png" width="200" alt="AI Voice Agent Logo"/>
-</p>
 
 <h1 align="center">🎙️ AI Voice Agent</h1>
 
@@ -11,7 +8,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg">
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg">
 </p>
 
 ---
