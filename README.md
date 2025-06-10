@@ -50,11 +50,8 @@ The **AI Voice Agent** is an interactive voice assistant that captures your spee
 2. **Install dependencies**
     pip install -r requirements.txt
 
-3. **Set up your Google API Key**
+3. **Set up your API Keys in .env.example**
 
-    Replace GOOGLE_API_KEY in utils/llm.py:
-
-    genai.configure(api_key="YOUR_API_KEY")
 
 🎯 **Usage**
     Run the app:
@@ -94,7 +91,6 @@ The **AI Voice Agent** is an interactive voice assistant that captures your spee
 📊 **Sample Metrics Logged**
 
     | Session ID   | EOU (s) | TTFT (s) | TTFB (s) | Total Latency (s) |
-| ------------ | ------- | -------- | -------- | ----------------- |
 | session\_001 | 1.33    | 2.03     | 1.06     | 4.43              |
 
 
