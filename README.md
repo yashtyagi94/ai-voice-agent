@@ -92,10 +92,14 @@ The **AI Voice Agent** is an interactive voice assistant that captures your spee
         └── metrics_logger.py
 
 📊 **Sample Metrics Logged**
-    Session ID	EOU (s)	 TTFT (s)	TTFB (s)	Total Latency (s)
-    session_001	1.33	 2.03	    1.06	    4.43
+
+    | Session ID   | EOU (s) | TTFT (s) | TTFB (s) | Total Latency (s) |
+| ------------ | ------- | -------- | -------- | ----------------- |
+| session\_001 | 1.33    | 2.03     | 1.06     | 4.43              |
+
 
 🧪 **To Do**
+
     Improve Whisper transcription accuracy
 
     Reduce total latency below 2s
