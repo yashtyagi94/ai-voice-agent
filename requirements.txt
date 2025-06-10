@@ -1,0 +1,8 @@
+openai-whisper
+pyaudio
+google-generativeai
+gtts
+pydub
+pandas
+openpyxl
+sounddevice
